@@ -1,0 +1,37 @@
+.contentIphonePage{
+    background: url("/img/IphonePage.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.apresentationIphone{
+    margin-top: 2rem;
+    text-align: center;   
+}
+.apresentationIphone h1{
+    font-size: 3rem;
+    color: rgb(32, 32, 32);
+}
+.buy::after{
+    content: ">"
+}
+.buy{
+    color: rgb(0, 183, 255);
+    font-weight: bold;
+    text-decoration: none;
+}
+.buy:hover{
+    text-decoration:underline;
+}
+.infoSection{
+    background-color: rgb(32, 32, 32);
+}
+.infoSection p{
+    color: white;
+    text-align: center;
+    padding: 1.2rem;
+}
