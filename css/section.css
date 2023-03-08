@@ -9,18 +9,29 @@
 
 }
 .apresentationIphone{
-    margin-top: 2rem;
-    text-align: center;   
+    margin-top: 3rem;
+    text-align: center;
 }
-.apresentationIphone h1{
-    font-size: 3rem;
+.apresentationIphone h2{
+    font-size: 3.5rem;
+    font-weight: 600;
     color: rgb(32, 32, 32);
+}
+.apresentationIphone h3{
+    
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.apresentationIphone p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #6e6e73;
 }
 .buy::after{
     content: ">"
 }
 .buy{
-    color: rgb(0, 183, 255);
+    color: rgb(0, 89, 255);
     font-weight: bold;
     text-decoration: none;
 }
@@ -35,3 +46,94 @@
     text-align: center;
     padding: 1.2rem;
 }
+.linkPage{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.linkPage a{
+    color: rgb(0, 89, 255);
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.linkPage a:hover{
+    text-decoration: underline;
+}
+.linkPage a::after{
+    content: '>'
+}
+
+.contentIphoneProPage{
+    background: url("/img/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.apresentationIphonePro{
+    color: white;
+    margin-top: 5rem;
+}
+.apresentationIphonePro h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+.apresentationIphonePro h3{
+    margin-top: 5px;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.contentWatchPage{
+    height: 100vh;
+    background: url("/img/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_large.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+    text-align: center;
+}
+.apresentationWatch h2{
+    color: white;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.contentProducts{
+    height: 100vh;
+}
+.productLine{
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+}
+.product{
+    height: 90vh;
+    width: 48vw;
+}
+.iPad{
+    background: url("/img/promo_ipad__fioegapg12qi_medium.jpg") no-repeat center;
+    background-size: cover;
+}
+.macBook{
+    background: url("/img/promo_mbp__ek7p477bkp6q_medium.jpg") no-repeat center;
+    background-size: cover;
+}
+.macMini{
+    background: url("/img/promo_macmini__fg9smqdnyjmi_medium.jpg") no-repeat center;
+    background-size: cover;
+}
+.airPods{
+    background: url("/img/promo_airpods_pro_avail__gaxggskofx6y_medium.jpg") no-repeat center;
+    background-size: cover;
+}
+.watchUltra{
+    background: url("/img/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg") no-repeat center;
+    background-size: cover;
+}
+.iPadPro{
+    background: url("/img/promo_ipadpro__ch217v9v7no2_large.jpg") no-repeat center;
+    background-size: cover;
+}   
