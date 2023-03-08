@@ -1,8 +1,8 @@
 .contentIphonePage{
     background: url("/img/IphonePage.jpg") no-repeat center;
     background-size: cover;
-    height: 100vh;
-
+    height: 90vh;
+    cursor: pointer;
     display:flex;
     flex-direction: column;
     align-items: center;
