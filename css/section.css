@@ -109,6 +109,9 @@
     gap: 0.8rem;
     justify-content: center;
 }
+.moreProducts div{
+    cursor: pointer;
+}
 .product{
     height: 90vh;
     width: 48vw;
@@ -148,3 +151,17 @@
     background: url("/img/promo_ipadpro__ch217v9v7no2_large.jpg") no-repeat center;
     background-size: cover;
 }   
+
+
+
+.images{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+.menu{
+    padding: 0.5rem;
+}
+.menu input{
+    border-radius: 10rem;
+}
