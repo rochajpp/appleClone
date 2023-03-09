@@ -4,6 +4,7 @@ header{
     backdrop-filter: saturate(180%) blur(20px);
     width: 100%;
     position: fixed;
+    z-index: 1000; 
 }
 
 .mobile{
@@ -35,7 +36,7 @@ li a{
     color: rgba(255, 255, 255, .8);
     transition: 0.5s;
 }
-li a:hover{
+header li a:hover{
     color: white;
 }
 ion-icon{

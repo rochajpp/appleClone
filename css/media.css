@@ -10,4 +10,14 @@
     .mobile{
         display: block;
     }
+    .productLine{
+        flex-direction: column;
+    }
+ 
+}
+
+@media only screen and (min-width: 1031px){
+    .product{
+        width: 100vw;
+    }
 }

@@ -1,0 +1,18 @@
+footer{
+    color: #6e6e73;
+    background-color: #f5f5f7;
+    font-size: 12px;
+}
+.contentFooter{
+    padding: 1rem 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contentFooter li{
+    list-style: none;
+}
+.linkFooter{
+    color: #424245;
+    text-decoration: underline;
+}
