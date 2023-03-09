@@ -55,7 +55,7 @@
 .linkPage a{
     color: rgb(0, 89, 255);
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .linkPage a:hover{
     text-decoration: underline;
@@ -67,7 +67,7 @@
 .contentIphoneProPage{
     background: url("/img/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg") no-repeat center;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -87,7 +87,7 @@
 }
 
 .contentWatchPage{
-    height: 100vh;
+    height: 90vh;
     background: url("/img/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_large.jpg") no-repeat center;
     background-size: cover;
     display: flex;
@@ -112,6 +112,17 @@
 .product{
     height: 90vh;
     width: 48vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+}
+.product h2{
+    font-size: 2.5rem;
+}
+.product h3{
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 .iPad{
     background: url("/img/promo_ipad__fioegapg12qi_medium.jpg") no-repeat center;

@@ -2,4 +2,12 @@
     .listDesktop{
         display: none;
     }
+    .apresentationIphonePro{
+        background: url("/img/hero_iphone14pro_spring__9xo85pm6sbmm_mediumtall.jpg") no-repeat center;
+        background-size: cover;
+        width: 100vw;
+    }
+    .mobile{
+        display: block;
+    }
 }

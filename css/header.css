@@ -6,10 +6,21 @@ header{
     position: fixed;
 }
 
+.mobile{
+    display: none;
+}
+
 .contentHeader{
     padding: 0.8rem;
 }
-
+.listMobile{
+    list-style: none;
+    font-size: 0.74rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.8rem;
+    align-items: center; 
+}
 .listDesktop{
     list-style: none;
     font-size: 0.74rem;
