@@ -16,3 +16,29 @@ footer{
     color: #424245;
     text-decoration: underline;
 }
+
+.linksNavs{
+    display: flex;
+    gap: 2rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.category nav{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 0.8rem;
+}
+.category nav a{
+    color: #424245;
+    text-decoration: none
+}
+.category nav a:hover{
+    text-decoration: underline;
+}
+
+
