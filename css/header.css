@@ -12,11 +12,11 @@ header{
 }
 
 .contentHeader{
-    padding: 0.8rem;
+    padding: 0.7rem;
 }
 .listMobile{
     list-style: none;
-    font-size: 0.74rem;
+    font-size: 0.7rem;
     display: flex;
     justify-content: space-between;
     gap: 2.8rem;
@@ -24,7 +24,8 @@ header{
 }
 .listDesktop{
     list-style: none;
-    font-size: 0.74rem;
+    font-size: 11px;
+    
     display: flex;
     justify-content: center;
     gap: 2.8rem;
@@ -33,12 +34,12 @@ header{
     
 li a{
     text-decoration: none;
-    color: rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255, 0.8);
     transition: 0.5s;
 }
 header li a:hover{
     color: white;
 }
 ion-icon{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }

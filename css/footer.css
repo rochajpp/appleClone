@@ -8,6 +8,7 @@ footer{
     display: flex;
     align-items: center;
     flex-direction: column;
+    line-height: 1rem;
 }
 .contentFooter li{
     list-style: none;
@@ -19,7 +20,7 @@ footer{
 
 .linksNavs{
     display: flex;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .row{
@@ -30,7 +31,7 @@ footer{
 .category nav{
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 0.6rem;
     margin-top: 0.8rem;
 }
 .category nav a{
@@ -41,4 +42,22 @@ footer{
     text-decoration: underline;
 }
 
+.linkFinal{
+    color: #06c;
+}
 
+.policyLinks {
+    margin-top: 0.5rem;
+}
+
+.policyLinks a{
+    color: #424245;
+    text-decoration: none;
+}
+.policyLinks .border{
+    border-left: 1px solid #424245;
+    padding: 0 0.5rem;
+   
+}
+
+.policyLinks a:hover
