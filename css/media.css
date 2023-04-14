@@ -3,7 +3,7 @@
         display: none;
     }
     .apresentationIphonePro{
-        background: url("img/hero_iphone14pro_spring__9xo85pm6sbmm_mediumtall.jpg") no-repeat center;
+        background: url("/img/hero_iphone14pro_spring__9xo85pm6sbmm_mediumtall.jpg") no-repeat center;
         background-size: cover;
         width: 100vw;
     }
@@ -13,7 +13,36 @@
     .productLine{
         flex-direction: column;
     }
+
+    .policyLinks{
+        flex-direction: column;
+    }
+    .linksNavs{
+        display: none;
+    }
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .copyright a{
+        
+    }
+    .line{
+        display: none;
+    }
  
+}
+
+@media screen and (min-width: 1030px){
+    .linksNavs{
+        display: flex;
+        gap: 2.5rem;
+    }
+    .copyright{
+        display: flex; 
+        margin-top: 0.5rem;
+    }
 }
 
 @media only screen and (min-width: 1031px){
