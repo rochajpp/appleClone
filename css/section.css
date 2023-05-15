@@ -1,5 +1,5 @@
 .contentIphonePage{
-    background: url("/img/IphonePage.jpg") no-repeat center;
+    background: url("img/IphonePage.jpg") no-repeat center;
     background-size: cover;
     height: 90vh;
     cursor: pointer;
@@ -65,7 +65,7 @@
 }
 
 .contentIphoneProPage{
-    background: url("/img/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg") no-repeat center;
+    background: url("img/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg") no-repeat center;
     background-size: cover;
     height: 90vh;
     display: flex;
@@ -88,7 +88,7 @@
 
 .contentWatchPage{
     height: 90vh;
-    background: url("/img/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_large.jpg") no-repeat center;
+    background: url("img/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_large.jpg") no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -130,27 +130,27 @@
     font-weight: 400;
 }
 .iPad{
-    background: url("/img/promo_ipad__fioegapg12qi_medium.jpg") no-repeat center;
+    background: url("img/promo_ipad__fioegapg12qi_medium.jpg") no-repeat center;
     background-size: cover;
 }
 .macBook{
-    background: url("/img/promo_mbp__ek7p477bkp6q_medium.jpg") no-repeat center;
+    background: url("img/promo_mbp__ek7p477bkp6q_medium.jpg") no-repeat center;
     background-size: cover;
 }
 .macMini{
-    background: url("/img/promo_macmini__fg9smqdnyjmi_medium.jpg") no-repeat center;
+    background: url("img/promo_macmini__fg9smqdnyjmi_medium.jpg") no-repeat center;
     background-size: cover;
 }
 .airPods{
-    background: url("/img/promo_airpods_pro_avail__gaxggskofx6y_medium.jpg") no-repeat center;
+    background: url("img/promo_airpods_pro_avail__gaxggskofx6y_medium.jpg") no-repeat center;
     background-size: cover;
 }
 .watchUltra{
-    background: url("/img/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg") no-repeat center;
+    background: url("img/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg") no-repeat center;
     background-size: cover;
 }
 .iPadPro{
-    background: url("/img/promo_ipadpro__ch217v9v7no2_large.jpg") no-repeat center;
+    background: url("img/promo_ipadpro__ch217v9v7no2_large.jpg") no-repeat center;
     background-size: cover;
 }   
 
