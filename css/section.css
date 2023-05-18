@@ -1,5 +1,5 @@
 .contentIphonePage{
-    background: url("img/IphonePage.jpg") no-repeat center;
+    background: url("img/IphonePage.jpg");
     background-size: cover;
     height: 90vh;
     cursor: pointer;
@@ -65,7 +65,7 @@
 }
 
 .contentIphoneProPage{
-    background: url("img/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg") no-repeat center;
+    background: url("img/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg");
     background-size: cover;
     height: 90vh;
     display: flex;
