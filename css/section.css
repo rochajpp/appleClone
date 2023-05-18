@@ -130,7 +130,7 @@
     font-weight: 400;
 }
 .iPad{
-    background: url("/img/promo_ipad__fioegapg12qi_medium.jpg") no-repeat center;
+    background: url("img/promo_ipad__fioegapg12qi_medium.jpg") no-repeat center;
     background-size: cover;
 }
 .macBook{
