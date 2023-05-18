@@ -4,7 +4,7 @@ footer{
     font-size: 12px;
 }
 .contentFooter{
-    padding: 1rem 10rem;
+    padding: 1rem 0;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -44,6 +44,8 @@ footer{
 .policyLinks {
     margin-top: 0.5rem;
     display: flex;
+    flex-wrap: wrap;
+    width: 20rem;
 }
 
 .policyLinks:hover{
@@ -55,9 +57,52 @@ footer{
     text-decoration: none;
 }
 .policyLinks .border{
-    border-left: 1px solid #424245;
+    border-left: 1px solid #6d6d6d;
     padding: 0 0.5rem;
    
+}
+
+
+
+.descricao{
+    border-bottom: 1px solid #d2d2d7;
+    
+    
+
+    display: flex;
+    align-items: center;
+}
+.descricao h1{
+    font-weight: 100;
+    line-height: 2rem;
+}
+.descricao ion-icon{
+    position: absolute;
+    left: 22rem;
+    transition: 0.5s;
+}
+.active ion-icon{
+    transform: rotate(45deg);
+}
+.linksResp{
+    display: none;
+   
+    transition: 0.5s;
+    
+}
+.linksResp a{
+    color: #424245;
+    text-decoration: none
+}
+.linksResp a:hover{
+    text-decoration: underline;
+}
+.active .linksResp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 1rem;
+    gap: 1rem;
 }
 
 
