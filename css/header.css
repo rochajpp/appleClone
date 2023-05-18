@@ -7,9 +7,7 @@ header{
     z-index: 1000; 
 }
 
-.mobile{
-    display: none;
-}
+
 
 .contentHeader{
     padding: 0.7rem;
@@ -25,7 +23,7 @@ header{
 .listDesktop{
     list-style: none;
     font-size: 11px;
-    
+    gap: 2.8rem;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -65,8 +63,6 @@ ion-icon{
     transition: 0.1s;
 }
 
-
-
 .activeHeader .barra div{
     transition: 0.8s;
 }
@@ -82,15 +78,6 @@ ion-icon{
     
     transform: rotate(-45deg);
     animation: mergeAnimation2 0.1s ease-in-out forwards;
-}
-
-
-.activeHeader2 .barra .barra1{
-    
-}
-
-.activeHeader2 .barra .barra2{
-    
 }
 
 @keyframes mergeAnimation {

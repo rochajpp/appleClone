@@ -13,7 +13,9 @@
     .productLine{
         flex-direction: column;
     }
-
+    .mobileItem{
+        display: block;
+    }
     .policyLinks{
        
     }
@@ -63,6 +65,12 @@
         margin-top: 0.5rem;
     }
     .linkNavsResp{
+        display: none;
+    }
+    .mobileItem{
+        display: none;
+    }
+    .mobile{
         display: none;
     }
     
